@@ -11,8 +11,7 @@ spec:
   project: default
   source:
     path: argocd/
-    repoURL: https://github.com/<userna    repoURL: https://github.com/<username>/control-plane
-me>/control-plane
+    repoURL: https://github.com/auskorusa/control-plane
     directory:
       recurse: true
   syncPolicy:
